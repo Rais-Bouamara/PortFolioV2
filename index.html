@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio-Raïs-Bouamara</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+ 
+<nav>
+  <div class="nav-logo">dev<span>.portfolio</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">à propos</li>
+    <li><a href="#skills">compétences</a></li>
+    <li><a href="#projects">projets</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+ 
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-tag">BTS SIO option SLAM — Alternance 2025</div>
+  <h1 class="hero-name" id="typed-name"><span class="cursor"></span></h1>
+  <p class="hero-role">Devellopeur <span class="highlight">Font-End Jr</span> · Saint-Étienne</p>
+  <p class="hero-desc">Étudiant passionné par le développement logiciel, la création d'applications web et la résolution de problèmes complexes. À la recherche d'une alternance stimulante.</p>
+  <div class="hero-cta">
+    <a href="#contact" class="btn btn-primary">Me contacter</a>
+    <a href="#projects" class="btn btn-outline">Voir mes projets</a>
+  </div>
+  <div class="scroll-hint">↓ scroll</div>
+</section>
+ 
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-text reveal">
+      <div class="section-label">à propos</div>
+      <h2 class="section-title">Qui suis-<span>je</span> ?</h2>
+      <p>Je suis un étudiant en <strong>BTS SIO option SLAM</strong>, passionné de développement depuis mes premières lignes de code. Basé à <strong>Saint-Étienne</strong>, je recherche une entreprise pour mon alternance.</p>
+      <p>J'aime construire des choses qui fonctionnent — des interfaces propres aux logiques bien structurées en front-end. La résolution de problèmes, c'est ce qui me fait me lever le matin.</p>
+      <p>En dehors du code, je m'intéresse à l'UX design, aux nouvelles technos, et je documente mes projets sur GitHub.</p>
+      <div class="badge-row">
+        <span class="badge">Alternance disponible</span>
+        <span class="badge">Saint-Étienne & alentours</span>
+        <span class="badge">Septembre 2025</span>
+      </div>
+    </div>
+    <div class="about-code reveal">
+<pre><span class="comment">// profil.js</span>
+ 
+<span class="bracket">{</span>
+  <span class="key">nom</span>: <span class="str">"Raïs Bouamara"</span>,
+  <span class="key">formation</span>: <span class="str">"BTS SIO SLAM"</span>,
+  <span class="key">localisation</span>: <span class="str">"Saint-Étienne, 42"</span>,
+  <span class="key">disponibilité</span>: <span class="str">"Sept. 2025"</span>,
+ 
+  <span class="key">passions</span>: <span class="bracket">[</span>
+    <span class="str">"Devellopement Web"</span>,
+    <span class="str">"Résolution de Problèmes"</span>,
+    <span class="str">"Open Source"</span>,
+    <span class="str">"UX-UI Design"</span>
+  <span class="bracket">]</span>,
+ 
+  <span class="key">objectif</span>: <span class="str">"Décrocher une alternance
+  dans une ESN ou éditeur logiciel
+  sur Saint-Étienne"</span>
+<span class="bracket">}</span></pre>
+    </div>
+  </div>
+</section>
+ 
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3rem" class="reveal">
+      <div class="section-label">compétences</div>
+      <h2 class="section-title">Compétences <span>techniques</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-card-header"><span class="skill-card-title">Front-end</span></div>
+        <div class="skill-item">
+          <div class="skill-name"><span>HTML / CSS</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="0.9"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>JavaScript</span><span>50%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="0.50"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Design réactif</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="0.8"></div></div>
+        </div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-header"><span class="skill-card-title">Outils & Méthodes</span></div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Git / GitHub</span><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="0.75"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>VS Code</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="0.85"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Méthode Agile</span><span>55%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="0.55"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:3rem" class="reveal">
+      <div class="section-label">projets</div>
+      <h2 class="section-title">Mes <span>projets</span></h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-card-top">
+          <span class="project-number">01</span>
+          <div class="project-links"><a href="https://github.com/Rais-Bouamara/Positivirus.git" target="_blank">GitHub ↗</a></div>
+        </div>
+        <h3 class="project-title">Positivirus Site</h3>
+        <p class="project-desc">Site internet de style Neo-Brutalisme, devoir pour montrer mes capacités techniques en HTML et CSS, avec contraintes sur D.A et respect du Template.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">Projet Git</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-card-top">
+          <span class="project-number">02</span>
+          <div class="project-links"><a href="https://github.com/Rais-Bouamara/Evaluation-Architecte.git" target="_blank">GitHub ↗</a></div>
+        </div>
+        <h3 class="project-title">Client Architecte Site</h3>
+        <p class="project-desc">Application météo connectée à l'API OpenWeatherMap. Recherche par ville, affichage des prévisions sur 5 jours, géolocalisation.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">Projet Git</span><span class="project-tag">Client Fictif</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-card-top">
+          <span class="project-number">03</span>
+          <div class="project-links"><a href="https://github.com/Rais-Bouamara/Menuiserie-Dubois-Rais-Bouamara.git">GitHub ↗</a></div>
+        </div>
+        <h3 class="project-title">Menuiserie Dubois Site</h3>
+        <p class="project-desc">Quiz interactif avec système de score, timer, plusieurs catégories et affichage des résultats finaux avec animations.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">JavaScript</span><span class="project-tag">Projet Git</span><span class="project-tag">Client Fictif</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-card-top">
+          <span class="project-number">04</span>
+          <div class="project-links"><a href="#">GitHub ↗</a></div>
+        </div>
+        <h3 class="project-title">Gestionnaire CRUD</h3>
+        <p class="project-desc">Mini application de gestion de contacts avec création, lecture, modification, suppression et recherche dynamique.</p>
+        <div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">CRUD</span><span class="project-tag">JSON</span><span class="project-tag">DOM</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-card-top">
+          <span class="project-number">05</span>
+          <div class="project-links"><a href="#">GitHub ↗</a></div>
+        </div>
+        <h3 class="project-title">Dashboard Budget</h3>
+        <p class="project-desc">Tableau de bord personnel de gestion budgétaire avec graphiques, catégories de dépenses et bilan mensuel.</p>
+        <div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">Chart.js</span><span class="project-tag">CSS</span></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-card-top">
+          <span class="project-number">06</span>
+          <div class="project-links"><a href="#">Live ↗</a></div>
+        </div>
+        <h3 class="project-title">Portfolio</h3>
+        <p class="project-desc">Ce portfolio — conçu en vibe coding, avec animations, canvas générative et design dark mode inspiré du terminal.</p>
+        <div class="project-tags"><span class="project-tag">HTML</span><span class="project-tag">CSS</span><span class="project-tag">Canvas</span><span class="project-tag">Vanilla JS</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="reveal" style="text-align:center;margin-bottom:2rem">
+      <div class="section-label">contact</div>
+      <h2 class="section-title">Travaillons <span>ensemble</span></h2>
+    </div>
+    <div class="contact-card reveal">
+      <div class="contact-terminal">
+        <div><span class="prompt">$ </span><span class="cmd">ecrivez-moi !</span> <span class="out">"Je cherche mon alternant idéal"</span></div>
+        <div style="margin-top:.5rem"><span class="prompt">→ </span><span class="out">Disponible dès septembre 2025 · Secteur Saint-Étienne et alentours</span></div>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:votre@email.com" class="contact-link">
+          <span class="contact-link-icon">✉️</span>
+          <div class="contact-link-info">
+        
+            <span class="contact-link-value">rais.bouamara@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://github.com/votre-github" target="_blank" class="contact-link">
+          <span class="contact-link-icon">🐙</span>
+          <div class="contact-link-info">
+        
+            <span class="contact-link-value">https://github.com/dashboard</span>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/votre-linkedin" target="_blank" class="contact-link">
+          <span class="contact-link-icon">💼</span>
+          <div class="contact-link-info">
+            
+            <span class="contact-link-value">www.linkedin.com/in/raïs-bouamara-2604122b3
+
+</span>
+          </div>
+        </a>
+        <a href="tel:+33600000000" class="contact-link">
+          <span class="contact-link-icon">📱</span>
+          <div class="contact-link-info">
+            
+            <span class="contact-link-value">07 82 65 37 54</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<footer>
+  <p>Codé avec <span>♥</span> et beaucoup de café · BTS SIO SLAM 2025</p>
+</footer>
+</body>
+</html>
